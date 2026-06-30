@@ -14,7 +14,7 @@ pipeline {
 
             steps {
 
-                git 'https://github.com/username/javaapp.git'
+                git 'https://github.com/Likhith-25/javaapp.git'
 
             }
 
