@@ -40,21 +40,6 @@ pipeline {
 
         }
 
-        stage('Deploy to Docker Swarm') {
-
-            steps {
-
-                sh '''
-                docker service rm javaapp || true
-
-                docker service create \
-                --name javaapp \
-                -p 8080:8080 \
-                javaapp
-                '''
-            }
-
-        }
 
     }
 }
