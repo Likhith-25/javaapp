@@ -14,8 +14,7 @@ pipeline {
 
             steps {
 
-                git branch : 'main',
-                url 'https://github.com/Likhith-25/javaapp.git'
+                git branch: 'main', url: 'https://github.com/Likhith-25/javaapp.git'
 
             }
 
